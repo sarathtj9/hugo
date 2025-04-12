@@ -10,7 +10,7 @@ theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
-#disqusShortname = "XXX"
+#disqusShortname = ""
 #googleAnalytics = "XXX"
 
 [Params]
@@ -20,6 +20,7 @@ pygmentCodeFences = true
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
+  disqusShortname = ""
   comments = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
@@ -48,7 +49,6 @@ pygmentCodeFences = true
     identifier = "samples"
     name = "Samples"
     weight = 2
-
 [[menu.main]]
     parent = "samples"
     name = "Big Image Sample"
